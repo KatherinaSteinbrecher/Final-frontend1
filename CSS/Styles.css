@@ -466,10 +466,11 @@ body{
 
 /*-------------CARDS--------------------*/
 
-}
-#card-oculta{
+ #card-oculta{
   display: none;
 }
+
+
 
 /*------------------------------- FONDO NARANJA-------------------------*/
 
@@ -499,4 +500,6 @@ footer {
 }
  h6{
    display:none;
+ }
+
  }
