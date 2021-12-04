@@ -1,0 +1,502 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding:0%;
+}
+/*Encabezado*/
+nav{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.logo-encabezado{
+ display:flex;
+ box-sizing: content-box;
+ width: 150px;
+ height: 50px;
+ padding: 12px;
+ margin: 15px;
+ box-sizing: border-box;
+ align-content: flex-start;
+ margin:0%;
+
+}
+
+.encabezado{
+
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  width: 35%;
+  height: 50px;
+  left: 20px;
+  margin: 0% 5% 0% 5%;
+  box-sizing: border-box;
+
+}
+.encabezado a{
+  color:black;
+  text-decoration: none;
+
+}
+
+ button{
+  background: coral;
+  color:white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-sizing: content-box;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: solid 3px coral;
+  margin: 5px;
+  padding:12px 30px;
+ }
+
+ .Menu-hamburguesa{
+   display: none;
+ }
+
+/* -----------------------------Primer Section*----------------------------------------*/
+
+ .container-section{
+  /*position: relative;*/
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+ justify-content: space-around;
+  align-content: center;
+  }
+  
+ .titulo-principal{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+ flex-direction:column;
+ align-content: flex-start;
+ align-items: center;
+ margin: 1% 3% 3% 0%;
+ }
+ .titulo-principal h1{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin:5% 2px 0% 2%;
+  padding-bottom: 3%;
+ }
+ .titulo-principal p{
+  font-size:16px;
+  text-align: justify;
+  color: dimgrey;
+  margin:0% 2px 2% 2%;
+}
+.conjunto-de-imagenes {
+  width: 30%;
+  top: 2%;
+  left:52%;
+  
+}
+.conjunto-de-imagenes img{
+  height: 500px;
+}
+
+/*Segunda Section*/
+
+.section-contenedor{
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  -ms-flex-line-pack: start;
+  margin:0%;
+}
+
+.titulo-subtitulo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+ flex-direction:column;
+ align-content: flex-start;
+ margin: 1% 3% 3% 0%;
+ align-items: flex-start;
+ padding:2px 15% 5% 2%;
+}
+
+
+.titulo-subtitulo h3{
+  font-weight: 700;
+  text-align: left;
+  font-size: 30px;
+  margin:2px 2px 0% 0%;
+  padding-bottom: 5%;
+}
+ .orden{
+  line-height: 0;
+  background: coral;
+  color:white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: solid 3px coral;
+  border-radius: 50px;
+  width: 45px;
+  height: 36px;
+  padding: 15px 32px;
+  float: left;
+  text-align: center;
+  margin-right: 30px;
+ }
+ 
+.contenido-items h5{
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;
+  margin:2px 2px 0% 0%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.parrafo-items{
+ font-size: 16px;
+ padding-left: 15%;
+ padding-bottom: 5%;
+ color: dimgrey;
+ text-align: justify;
+ text-align: left;
+ right:20%;
+ margin-right: 20px;
+}
+ 
+/*Tercer Section: CARDS*/
+.contenedor-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.conjunto-de-Cards{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+   }
+
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 445px;
+  height: 219px;
+  background-color: rgb(249, 249, 249);
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  font-size: 16px;
+}
+
+.contenedor-cards h2{
+text-align: center;
+padding-bottom: 5%;
+
+}
+
+.card h4{
+  background-color:  rgba(250, 250, 250, 1);
+  font-weight: 700;
+  padding-top: 50px;
+}
+.card p{
+  background-color: rgba(250, 250, 250, 1);
+  width: 90%;
+  margin-top: 20px;
+}
+
+.avatar{
+  position: absolute;
+  top: -35px;
+  width: 70px;
+  height: 70px;
+ 
+ }
+
+/* ---------------------------------------FONDO NARANJA---------------------*/
+
+.fondo-naranja{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  background-color: rgba(243, 97, 60, 1);
+  height: 224px;
+  width: 100%;
+  padding-top: 5%;
+  margin-top: 10%;
+
+}
+.fondo-naranja h2{
+  background-color: rgba(243, 97, 60, 1);
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.fondo-naranja button{
+  background-color: white;
+  color: orangered;
+  border: solid 3px white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*FOOTER*/
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgba(30, 30, 38, 1);
+  padding-top: 5%;
+  height: 247px;
+  width: 100%;
+  
+
+}
+.logo-letras-blancas{
+  background-color: rgba(30, 30, 38, 1);
+  top: 100px;
+  left: 100px;
+  padding-left: 5%;
+
+}
+
+.redes-sociales{
+  position: absolute;
+  left: 10px;
+  padding-right: 3%;
+  margin-right: 8%;
+  padding-top: 8%;
+  padding-left: 3%;
+  margin-left: 2%;
+ 
+}
+.redes-sociales a{
+  padding-right: 3%;
+  margin-right: 3%;
+  color:rgba(30, 30, 38, 1);
+}
+
+.links{
+margin-left: 10%;
+padding-bottom: 5%;
+
+}
+
+.links a{
+  color:white;
+  text-decoration: none;
+  margin-bottom: 8%;
+}
+
+/* Copyright y Formulario*/
+
+ h6{
+ color:rgba(140, 140, 148, 1);
+ position: relative;
+ bottom: -65px;
+ left: -190px;
+ padding-top: 3%;
+}
+
+.footer form{
+  margin-left: 5%;
+  padding-left: 8%;
+}
+.email{
+  background-color: white;
+  color: orangered;
+  border: solid 1px coral;
+  border-radius: 50px;
+  height: 44px;
+  width: 185px;
+}
+
+.boton-GO{
+  background-color: coral;
+  color: white;
+  border: solid 3px coral;
+  border-radius: 50px;
+  height: 44px;
+  width: 63px;
+}
+
+/* --------------------MOBILE----------------*/
+
+@media (max-width:375px) {
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  border: none;
+  
+}
+body{
+  width: 100%;
+}
+  /*encabezado*/
+
+ header{
+  display: flex;
+  justify-content: space-around;
+
+ }
+.Menu-hamburguesa{
+  display: flex;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+
+}
+.encabezado{
+  display: none;
+}
+
+#boton-encabezado{
+  display: none;
+}
+
+/*PRIMERA SECTION*/
+.container-section{
+  display:flex;
+  flex-direction: column-reverse;
+  width: 100vw;
+
+}
+.titulo-principal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0%;
+  padding:0%
+}
+.titulo-principal h1{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 0%;
+ 
+}
+.titulo-principal p{
+  font-size: 16px;
+  text-align: center;
+  margin: 0%;
+
+}
+
+.conjunto-de-imagenes{ 
+  width: 350px;
+  align-content: center;
+}
+
+ .conjunto-de-imagenes img{
+   width: 360px;
+   height: auto;
+ }
+ 
+  
+
+/* -----------SEGUNDA SECTION---------*/
+
+/*Listas-items*/
+
+.section-contenedor{
+  width: 100%;
+  margin: 0%;
+  padding:0%
+
+}
+.titulo-subtitulo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0%;
+  padding:0%
+
+}
+.listas{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.contenido-items{
+  width: 100%;
+  margin: 0%;
+  padding:0%;
+  text-align: center;
+}
+.contenido-items p{
+  font-size: 14px;
+  text-align: left;
+  margin: 0%;
+  padding: 2%;
+}
+.contenido-items h5{
+  background-color:#FFF0EC;
+  cursor:pointer;
+}
+.orden{
+  justify-content: center;
+  margin:0%;
+  padding: 0%;
+  width: 45px;
+  height: 25px;
+}
+.orden p{
+  text-align: center;
+  color:white;
+  font-size: 12px;
+
+}
+
+/*-------------CARDS--------------------*/
+
+}
+#card-oculta{
+  display: none;
+}
+
+/*------------------------------- FONDO NARANJA-------------------------*/
+
+.fondo-naranja h2{
+  font-size: 28px;
+  text-align:  center;
+}
+.boton-blanco{
+  background-color: white;
+  color: orangered;
+  border: solid 3px white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:auto; 
+  height: 38px;
+  padding: 0%;
+  margin: 0%;
+}
+
+/*-------------------------------FOOTER--------------------*/
+
+footer {
+  margin: 0%;
+  padding: 0%;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 400px;
+}
+ h6{
+   display:none;
+ }
